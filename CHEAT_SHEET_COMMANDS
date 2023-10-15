@@ -1,0 +1,2 @@
+docker build -t docker_tutorial .
+docker run --rm -it -p 3000:3000 --name docker-tutorial  docker_tutorial
